@@ -1,0 +1,326 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Roboto:wght@100&display=swap');
+body {
+    margin: 0 auto;
+    width: 1440px;
+}
+.main {
+    max-width: 1440px;
+    max-height: 1440px;
+}
+.navbar {
+    border-bottom: 1px solid white;
+    display: flex;
+    height: 120px
+}
+.logo {
+    height: 63px;
+    margin-left: 113px;
+    margin-right: 410px;
+    margin-top: 30px;
+}
+nav, ul, a {
+    margin: 0;
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    padding-right: 40px;
+    align-items: center;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 24px;
+    line-height: 30px;
+    color: #B08EAD;
+}
+.telejka {
+    height: 20px;
+    margin-left: 40px;
+}
+.main-part {
+    height: 817px;
+    position: relative;
+}
+.part1 {
+    height: 458px;
+    background-color: #C9ADC6;
+}
+.part1-img {
+    height: 675px;
+    position: absolute;
+    top: 72px;
+    left: 178px;
+}
+.part1-2 {
+    height: 359px;
+    background-color: #D6BBD3;
+}
+.part1-text {
+    width: 390px;
+    height: 350px;
+    background-color: #B08EAD;
+    position: absolute;
+    top: 184px;
+    right: 113px;
+    padding-left: 40px;
+    padding-top: 124px;
+}
+.p1, .p2 {
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-weight: 400;
+}
+.part1-text1 {
+    font-size: 45px;
+    font-family: 'Cormorant Garamond', serif;
+    color: white;
+    margin: 0;
+}
+.btn {
+    cursor: pointer;
+    border: none;
+    border-bottom: 2px solid white;
+    color: white;
+    background: none;
+    padding: 8px 0;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    margin-top: 10px;
+
+}
+.part2 {
+    text-align: center;
+    width: 746px;
+    padding: 75px 346px 50px 346px;
+}
+.p2 {
+    color: #B99BB6;
+    letter-spacing: 1.5px;
+}
+.part2-text2, .part4-text4 {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 38px;
+    text-align: center;
+    color: #5F4D5D;
+}
+.btn2 {
+    border:1px solid #B99BB6;
+    border-radius: 30px;
+    color: #B99BB6;
+    padding: 15px 40px;
+    background: none;
+    margin-top: 13px;
+    text-transform: uppercase;
+    font-size: 11px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    cursor: pointer;
+    letter-spacing: 1.5px;
+}
+.part3 {
+    display: flex;
+    justify-content: space-around;
+    padding-right: 120px;
+    padding-left: 126px;
+}
+.part3-1, .part3-2, .part3-3 {
+    background-color: #CEB3CB;
+}
+.p3 {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    color: white;
+    padding-left: 23px;
+    margin-bottom: 0;
+}
+.learn-more{
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 400;
+    font-size: 17px;
+    color: white;
+    padding-left: 23px;
+    padding-bottom: 15px;
+    margin-top: 10px;
+}
+.part4{
+    display: flex;
+    cursor: pointer;
+    background: none;
+    padding: 10px 10px 40px;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+.part4-text {
+    width: 480px;
+    height: 120px;
+    margin: 146px 84px 216px 157px ;
+}
+.part4-text4 {
+    text-align: left;
+    font-size: 24px;
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+.part4-img {
+    margin-top: 70px;
+}
+.line{
+    width: 1260px;
+    margin-left: 86px;
+}
+.part5 {
+    display: flex;
+    cursor: pointer;
+    background: none;
+    padding: 40px 130px 40px;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+.part5-text {
+    width: 480px;
+    height: 120px;
+    margin:96px 77px 138px 100px;
+}
+.btn3 {
+    border:1px solid #B99BB6;
+    border-radius: 30px;
+    color: #B99BB6;
+    padding: 15px 40px;
+    background: none;
+    margin-top: 13px;
+    text-transform: uppercase;
+    font-size: 11px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    cursor: pointer;
+}
+/*.part4{*/
+/*    display: flex;*/
+/*    cursor: pointer;*/
+/*    background: none;*/
+/*    padding: 70px 10px 40px;*/
+/*    font-size: 14px;*/
+/*    font-family: 'Roboto', sans-serif;*/
+/*    font-weight: 400;*/
+/*}*/
+
+.part4-text4 {
+    text-align: left;
+    font-size: 24px;
+    line-height: 30px;
+}
+.part4-img {
+    margin-top: 70px;
+}
+.part6{
+    display: flex;
+    cursor: pointer;
+    background: none;
+    margin-top: -24px;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+.pilow{
+    display: flex;
+    margin-top: 55px;
+    margin-bottom: 40px;
+}
+.pilow1{
+    margin-left: 112px;
+    margin-right: 26px;
+}
+.pilow3{
+    margin-left: 26px;
+}
+.pilow-text{
+    font-size: 24px;
+    color: #5F4D5D;
+    text-align: center;
+    margin-top: 9px;
+}
+.dollar{
+    font-size: 16px;
+    color: #B0B0B0;
+    text-align: center;
+    margin-top: -13px;
+}
+.footer{
+    display: flex;
+    background-color: #D6BBD3;
+}
+.home{
+    width: 154px;
+    padding-top: 46px;
+    padding-left: 288px;
+    text-align: center;
+    font-size: 17px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+.imghome{
+    width: 95px;
+    height: 95px;
+    margin-bottom: -20px;
+}
+.imgcar{
+    width: 95px;
+    height: 95px;
+    margin-bottom: -20px;
+}
+.imgfinger{
+    width: 95px;
+    height: 95px;
+    margin-bottom: -20px;
+}
+.car{
+    width: 167px;
+    padding-top: 46px;
+    padding-left: 183px;
+    text-align: center;
+    font-size: 17px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    margin-bottom: -20px;
+}
+.finger{
+    width: 200px;
+    padding-top: 46px;
+    padding-left: 195px;
+    text-align: center;
+    font-size: 17px;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    margin-bottom: -20px;
+}
+.footer-text{
+    margin-top: -15px;
+}
+.shipping{
+    font-size: 22px;
+    color: white;
+    font-family: 'Cormorant Garamond', serif;
+}
+.footernav {
+    background-color: #C9ADC6;
+    border: 1px solid #C9ADC6;
+    display: flex;
+    color: white;
+}
+.color{
+    color: white;
+}
+.logo2{
+    width: 103px;
+    height: 53px;
+    margin-top: 33px;
+    margin-right: 64px;
+    margin-left: 421px;
+    margin-bottom: 53px;
+}
